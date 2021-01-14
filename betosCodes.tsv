@@ -1,0 +1,107 @@
+CODE	DESCRIPTION	CATEGORY
+M1A	OFFICE VISITS - NEW	EVALUATION AND MANAGEMENT
+M1B	OFFICE VISITS - ESTABLISHED	EVALUATION AND MANAGEMENT
+M2A	HOSPITAL VISIT - INITIAL	EVALUATION AND MANAGEMENT
+M2B	HOSPITAL VISIT - SUBSEQUENT	EVALUATION AND MANAGEMENT
+M2C	HOSPITAL VISIT - CRITICAL CARE	EVALUATION AND MANAGEMENT
+M3	EMERGENCY ROOM VISIT	EVALUATION AND MANAGEMENT
+M4A	HOME VISIT	EVALUATION AND MANAGEMENT
+M4B	NURSING HOME VISIT	EVALUATION AND MANAGEMENT
+M5A	SPECIALIST - PATHOLOGY	EVALUATION AND MANAGEMENT
+M5B	SPECIALIST - PSYCHIATRY	EVALUATION AND MANAGEMENT
+M5C	SPECIALIST - OPHTHALMOLOGY	EVALUATION AND MANAGEMENT
+M5D	SPECIALIST - OTHER	EVALUATION AND MANAGEMENT
+M6	CONSULTATIONS	EVALUATION AND MANAGEMENT
+P0	ANESTHESIA	PROCEDURES
+P1A	MAJOR PROCEDURE - BREAST	PROCEDURES
+P1B	MAJOR PROCEDURE - COLECTOMY	PROCEDURES
+P1C	MAJOR PROCEDURE - CHOLECYSTECTOMY	PROCEDURES
+P1D	MAJOR PROCEDURE - TURP	PROCEDURES
+P1E	MAJOR PROCEDURE - HYSTERECTOMY                                  PROCEDURES
+P1F	MAJOR PROCEDURE - EXPLOR/DECOMPR/EXCISDISC                      PROCEDURES
+P1G	MAJOR PROCEDURE - OTHER                                         PROCEDURES
+P2A	MAJOR PROCEDURE, CARDIOVASCULAR - CABG                          PROCEDURES
+P2B	MAJOR PROCEDURE, CARDIOVASCULAR - ANEURYSM REPAIR               PROCEDURES
+P2C	MAJOR PROCEDURE, CARDIOVASCULAR - THROMBOENDARTERECTOMY         PROCEDURES
+P2D	MAJOR PROCEDURE, CARDIOVASCULAR - CORONARY ANGIOOPLASTY(PTCA)   PROCEDURES
+P2E	MAJOR PROCEDURE, CARDIOVASCULAR - PACEMAKER INSERTION           PROCEDURES
+P2F	MAJOR PROCEDURE, CARDIOVASCULAR - OTHER                         PROCEDURES
+P3A	MAJOR PROCEDURE, ORTHOPEDIC - HIP FRACTURE REPAIR               PROCEDURES
+P3B	MAJOR PROCEDURE, ORTHOPEDIC - HIP REPLACEMENT                   PROCEDURES
+P3C	MAJOR PROCEDURE, ORTHOPEDIC - KNEE REPLACEMENT                  PROCEDURES
+P3D 	MAJOR PROCEDURE, ORTHOPEDIC - OTHER                             PROCEDURES
+P4A	EYE PROCEDURE - CORNEAL TRANSPLANT                              PROCEDURES
+P4B 	EYE PROCEDURE - CATARACT REMOVAL/LENS INSERTION                 PROCEDURES
+P4C 	EYE PROCEDURE - RETINAL DETACHMENT                              PROCEDURES
+P4D 	EYE PROCEDURE - TREATMENT OF RETINAL LESIONS                    PROCEDURES
+P4E 	EYE PROCEDURE - OTHER                                           PROCEDURES
+P5A 	AMBULATORY PROCEDURES - SKIN                                    PROCEDURES
+P5B 	AMBULATORY PROCEDURES - MUSCULOSKELETAL                         PROCEDURES
+P5C 	AMBULATORY PROCEDURES - INGUINAL HERNIA REPAIR                  PROCEDURES
+P5D 	AMBULATORY PROCEDURES - LITHOTRIPSY                             PROCEDURES
+P5E 	AMBULATORY PROCEDURES - OTHER                                   PROCEDURES
+P6A 	MINOR PROCEDURES - SKIN                                         PROCEDURES
+P6B 	MINOR PROCEDURES - MUSCULOSKELETAL                              PROCEDURES
+P6C 	MINOR PROCEDURES - OTHER (MEDICARE FEE SCHEDULE)                PROCEDURES
+P6D	MINOR PROCEDURES - OTHER (NON-MEDICARE FEE SCHEDULE)            PROCEDURES
+P7A	ONCOLOGY - RADIATION THERAPY                                    PROCEDURES
+P7B 	ONCOLOGY - OTHER                                                PROCEDURES
+P8A	ENDOSCOPY - ARTHROSCOPY                                         PROCEDURES
+P8B 	ENDOSCOPY - UPPER GASTROINTESTINAL                              PROCEDURES
+P8C 	ENDOSCOPY - SIGMOIDOSCOPY                                       PROCEDURES
+P8D 	ENDOSCOPY - COLONOSCOPY                                         PROCEDURES
+P8E 	ENDOSCOPY - CYSTOSCOPY                                          PROCEDURES
+P8F 	ENDOSCOPY - BRONCHOSCOPY                                        PROCEDURES
+P8G 	ENDOSCOPY - LAPAROSCOPIC CHOLECYSTECTOMY                        PROCEDURES
+P8H 	ENDOSCOPY - LARYNGOSCOPY                                        PROCEDURES
+P8I 	ENDOSCOPY - OTHER                                               PROCEDURES
+P9A 	DIALYSIS SERVICES (MEDICARE FEE SCHEDULE)                       PROCEDURES
+P9B 	DIALYSIS SERVICES (NON-MEDICARE FEE SCHEDULE)                   PROCEDURES
+I1A                                                             STANDARD IMAGING - CHEST                                        IMAGING
+I1B                                                             STANDARD IMAGING - MUSCULOSKELETAL                              IMAGING
+I1C                                                             STANDARD IMAGING - BREAST                                       IMAGING
+I1D                                                             STANDARD IMAGING - CONTRAST GASTROINTESTINAL                    IMAGING
+I1E                                                             STANDARD IMAGING - NUCLEAR MEDICINE                             IMAGING
+I1F                                                             STANDARD IMAGING - OTHER                                        IMAGING
+I2A                                                             ADVANCED IMAGING - CAT: HEAD                                    IMAGING
+I2B                                                             ADVANCED IMAGING - CAT: OTHER                                   IMAGING
+I2C                                                             ADVANCED IMAGING - MRI: BRAIN                                   IMAGING
+I2D                                                             ADVANCED IMAGING - MRI: OTHER                                   IMAGING
+I3A                                                             ECHOGRAPHY - EYE                                                IMAGING
+I3B                                                             ECHOGRAPHY - ABDOMEN/PELVIS                                     IMAGING
+I3C                                                             ECHOGRAPHY - HEART                                              IMAGING
+I3D                                                             ECHOGRAPHY - CAROTID ARTERIES                                   IMAGING
+I3E                                                             ECHOGRAPHY - PROSTATE, TRANSRECTAL                              IMAGING
+I3F                                                             ECHOGRAPHY - OTHER                                              IMAGING
+I4A                                                             IMAGING/PROCEDURE - HEART,INCLUDING CARDIAC CATHETERIZATION     IMAGING
+I4B                                                             IMAGING/PROCEDURE - OTHER                                       IMAGING
+T1A                                                             LAB TESTS - ROUTINE VENIPUNCTURE (NON MEDICARE FEE SCHEDULE)    TESTS
+T1B                                                             LAB TESTS - AUTOMATED GENERAL PROFILES                          TESTS
+T1C                                                             LAB TESTS - URINALYSIS                                          TESTS
+T1D                                                             LAB TESTS - BLOOD COUNTS                                        TESTS
+T1E                                                             LAB TESTS - GLUCOSE                                             TESTS
+T1F                                                             LAB TESTS - BACTERIAL CULTURES                                  TESTS
+T1G                                                             LAB TESTS - OTHER (MEDICARE FEE SCHEDULE)                       TESTS
+T1H                                                             LAB TESTS - OTHER (NON-MEDICARE FEE SCHEDULE)                   TESTS
+T2A                                                             OTHER TESTS - ELECTROCARDIOGRAMS                                TESTS
+T2B                                                             OTHER TESTS - CARDIOVASCULAR STRESS TESTS                       TESTS
+T2C                                                             OTHER TESTS - EKG MONITORING                                    TESTS
+T2D                                                             OTHER TESTS - OTHER                                             TESTS
+D1A                                                             MEDICAL/SURGICAL SUPPLIES                                       DURABLE MEDICAL EQUIPMENT
+D1B                                                             HOSPITAL BEDS                                                   DURABLE MEDICAL EQUIPMENT
+D1C                                                             OXYGEN AND SUPPLIES                                             DURABLE MEDICAL EQUIPMENT
+D1D                                                             WHEELCHAIRS                                                     DURABLE MEDICAL EQUIPMENT
+D1E                                                             OTHER DME                                                       DURABLE MEDICAL EQUIPMENT
+D1F                                                             ORTHOTIC DEVICES                                                DURABLE MEDICAL EQUIPMENT
+D1G                                                             DRUGS ADMINISTERED THROUGH DME                                  DURABLE MEDICAL EQUIPMENT
+O1A                                                             AMBULANCE                                                       OTHER
+O1B                                                             CHIROPRACTIC                                                    OTHER
+O1C                                                             ENTERAL AND PARENTERAL                                          OTHER
+O1D                                                             CHEMOTHERAPY                                                    OTHER
+O1E                                                             OTHER DRUGS                                                     OTHER
+O1F                                                             VISION, HEARING AND SPEECH SERVICES                             OTHER
+O1G                                                             INFLUENZA IMMUNIZATION                                          OTHER
+Y1                                                              OTHER - MEDICARE FEE SCHEDULE                                   EXCEPTIONS/UNCLASSIFIED
+Y2                                                              OTHER - NON-MEDICARE FEE SCHEDULE                               EXCEPTIONS/UNCLASSIFIED
+Z1                                                              LOCAL CODES                                                     EXCEPTIONS/UNCLASSIFIED
+Z2                                                              UNDEFINED CODES                                                 EXCEPTIONS/UNCLASSIFIED
