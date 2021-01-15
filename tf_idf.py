@@ -44,14 +44,14 @@ def computeCosineSimilarity(bag, tfidf, docCounts):
         bagCounts[word] += 1
     embedding = dict()
     N = len(docCounts)
+    norm = 0
     for key in bagCounts:
-        norm = 0
         if key in docCounts:
             embedding[key] = bagCounts[key]/len(bag) * math.log(N/docCounts[key])
-            norm += embedding[key]
+            norm += embedding[key]**2
     for key in embedding:
         try:
-            embedding[key] /= norm
+            embedding[key] /= norm**0.5
         except ZeroDivisionError:
             pass
 
@@ -62,8 +62,8 @@ def computeCosineSimilarity(bag, tfidf, docCounts):
         for word in tfidf[key]:
             if word in embedding:
                 similarity[key] += embedding[word]*tfidf[key][word]
-            norm += tfidf[key][word]
-        similarity[key] /= norm
+            norm += tfidf[key][word]**2
+        similarity[key] /= norm**0.5
     return similarity
 
 if __name__ == "__main__":
@@ -73,4 +73,4 @@ if __name__ == "__main__":
     bagOfWords = {key:documents[key].split(' ') for key in documents}
     tfidf, termCounts, docCounts = computeTFIDF(bagOfWords)
     #print(tfidf)
-    #print(computeCosineSimilarity(bagOfWords['documentA'], tfidf, docCounts))
+    print(computeCosineSimilarity(bagOfWords['documentA'], tfidf, docCounts))
