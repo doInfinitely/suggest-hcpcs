@@ -56,7 +56,8 @@ hospital = {'npi_number':'1164807624',
             'street_address': '1504 TAUB LOOP',
             'city': 'HOUSTON',
             'state': 'TX',
-            'zip_code': '77030-1608'}
+            'zip_code': '77030-1608'
+            'publish_date': '2020-12-31'}
 for i in range(2, 9867):
     cpt = dict()
     price = dict()
